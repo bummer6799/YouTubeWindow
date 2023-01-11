@@ -11,7 +11,7 @@ root = tk.Tk()
 root.title("YouTubeWindow")
 
 # Create a label to prompt the user for input
-tk.Label(root, text="Enter video link:").pack()
+tk.Label(root, text="Enter YouTube link:").pack()
 
 # Create a text box for the user to input
 input_box = tk.Entry(root)
