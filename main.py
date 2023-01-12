@@ -6,8 +6,11 @@ def save_input():
     input_text = input_box.get()
     print("Input saved as:", input_text)
     root.destroy()
+    
 # Create the main window
 root = tk.Tk()
+photo = tk.PhotoImage(file = 'icon.png')
+root.wm_iconphoto(False, photo)
 root.title("YouTubeWindow")
 
 # Create a label to prompt the user for input
